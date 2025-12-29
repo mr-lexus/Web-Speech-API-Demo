@@ -4,13 +4,13 @@
   "description": "Comprehensive demonstration of Web Speech API capabilities with Vue 3, TypeScript, and i18n support",
   "license": "MIT",
   "author": "Web Speech API Demo Contributors",
-  "homepage": "https://github.com/mr-lexus/web-speech-api-demo#readme",
+  "homepage": "https://github.com/mr-lexus/Web-Speech-API-Demo#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mr-lexus/web-speech-api-demo.git"
+    "url": "https://github.com/mr-lexus/Web-Speech-API-Demo.git"
   },
   "bugs": {
-    "url": "https://github.com/mr-lexus/web-speech-api-demo/issues"
+    "url": "https://github.com/mr-lexus/Web-Speech-API-Demo/issues"
   },
   "keywords": [
     "web-speech-api",

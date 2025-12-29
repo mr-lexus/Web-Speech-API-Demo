@@ -17,17 +17,19 @@ const messages = {
   es
 }
 
+type Locale = keyof typeof messages
+
 // Атрымаць мову браўзера або выкарыстаць англійскую па змаўчанні
-const getBrowserLanguage = (): string => {
+const getBrowserLanguage = (): Locale => {
   const browserLang = navigator.language.split('-')[0]
-  return Object.keys(messages).includes(browserLang) ? browserLang : 'en'
+  return Object.keys(messages).includes(browserLang) ? (browserLang as Locale) : 'en'
 }
 
 // Атрымаць захаваную мову з localStorage або выкарыстаць мову браўзера
-const getSavedLanguage = (): string => {
+const getSavedLanguage = (): Locale => {
   const saved = localStorage.getItem('app-language')
   if (saved && Object.keys(messages).includes(saved)) {
-    return saved
+    return saved as Locale
   }
   return getBrowserLanguage()
 }
@@ -43,7 +45,7 @@ export const i18n = createI18n({
 // Функцыя для змены мовы
 export const setLanguage = (locale: string) => {
   if (Object.keys(messages).includes(locale)) {
-    i18n.global.locale.value = locale
+    i18n.global.locale.value = locale as Locale
     localStorage.setItem('app-language', locale)
     document.documentElement.lang = locale
   }

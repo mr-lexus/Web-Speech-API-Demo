@@ -9,7 +9,7 @@
 
 Eine umfassende Demonstration der Web Speech API-Funktionen, die sowohl Spracherkennung als auch Sprachsynthese-Features zeigt. Erstellt mit Vue 3, TypeScript und modernen Web-Technologien.
 
-🌐 **[Live Demo](https://mr-lexus.github.io/web-speech-api-demo/)** - Jetzt ausprobieren!
+🌐 **[Live Demo](https://mr-lexus.github.io/Web-Speech-API-Demo/)** - Jetzt ausprobieren!
 
 ## 🚀 Funktionen
 
@@ -67,8 +67,8 @@ Eine umfassende Demonstration der Web Speech API-Funktionen, die sowohl Spracher
 
 ```bash
 # Repository klonen
-git clone https://github.com/mr-lexus/web-speech-api-demo.git
-cd web-speech-api-demo
+git clone https://github.com/mr-lexus/Web-Speech-API-Demo.git
+cd Web-Speech-API-Demo
 
 # Abhängigkeiten installieren
 yarn install
@@ -210,7 +210,7 @@ Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die [LICENSE](LICENSE
 
 Wenn Sie Fragen haben oder Hilfe benötigen, bitte:
 
-1. Überprüfen Sie die [Issues](https://github.com/mr-lexus/web-speech-api-demo/issues)-Seite
+1. Überprüfen Sie die [Issues](https://github.com/mr-lexus/Web-Speech-API-Demo/issues)-Seite
 2. Erstellen Sie ein neues Issue, wenn Ihre Frage noch nicht beantwortet wurde
 3. Geben Sie so viele Details wie möglich über Ihr Problem an
 

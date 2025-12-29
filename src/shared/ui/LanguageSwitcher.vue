@@ -49,9 +49,9 @@ const handleLanguageChange = (event: Event) => {
 
   &__select {
     padding: 0.25rem 0.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(255 255 255 / 30%);
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(255 255 255 / 10%);
     color: white;
     font-size: 0.9rem;
     cursor: pointer;
@@ -59,15 +59,15 @@ const handleLanguageChange = (event: Event) => {
     backdrop-filter: blur(10px);
 
     &:hover {
-      background: rgba(255, 255, 255, 0.2);
-      border-color: rgba(255, 255, 255, 0.5);
+      background: rgb(255 255 255 / 20%);
+      border-color: rgb(255 255 255 / 50%);
     }
 
     &:focus {
       outline: none;
-      background: rgba(255, 255, 255, 0.2);
-      border-color: rgba(255, 255, 255, 0.7);
-      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+      background: rgb(255 255 255 / 20%);
+      border-color: rgb(255 255 255 / 70%);
+      box-shadow: 0 0 0 2px rgb(255 255 255 / 10%);
     }
 
     option {
