@@ -1,0 +1,75 @@
+{
+  "app": {
+    "title": "Demo Web Speech API",
+    "description": "Demonstracja możliwości Web Speech API: rozpoznawanie mowy i synteza mowy"
+  },
+  "speechRecognition": {
+    "title": "Rozpoznawanie mowy",
+    "startRecording": "Rozpocznij nagrywanie",
+    "stopRecording": "Zatrzymaj nagrywanie",
+    "clear": "Wyczyść",
+    "recognizedText": "Rozpoznany tekst:",
+    "placeholder": "Naciśnij przycisk nagrywania i zacznij mówić...",
+    "language": "Język:",
+    "continuousRecognition": "Ciągłe rozpoznawanie",
+    "status": {
+      "notSupported": "Web Speech API nie jest obsługiwane w Twojej przeglądarce",
+      "recording": "Nagrywanie... Mów do mikrofonu",
+      "ready": "Gotowy do nagrywania"
+    },
+    "errors": {
+      "noSpeech": "Nie wykryto mowy. Spróbuj ponownie.",
+      "audioCapture": "Mikrofon jest niedostępny. Sprawdź uprawnienia.",
+      "notAllowed": "Dostęp do mikrofonu został odrzucony. Zezwól na używanie mikrofonu.",
+      "network": "Błąd sieci. Sprawdź połączenie internetowe.",
+      "general": "Błąd rozpoznawania mowy: {error}"
+    },
+    "languages": {
+      "ru-RU": "Rosyjski",
+      "en-US": "Angielski",
+      "de-DE": "Niemiecki",
+      "fr-FR": "Francuski"
+    }
+  },
+  "speechSynthesis": {
+    "title": "Synteza mowy",
+    "textToSpeak": "Tekst do wypowiedzenia:",
+    "placeholder": "Wprowadź tekst, który chcesz wypowiedzieć...",
+    "characters": "znaków",
+    "speak": "Wypowiedz",
+    "pause": "Pauza",
+    "resume": "Wznów",
+    "stop": "Zatrzymaj",
+    "voice": "Głos:",
+    "rate": "Szybkość:",
+    "pitch": "Wysokość:",
+    "volume": "Głośność:",
+    "quickPhrases": "Szybkie frazy:",
+    "status": {
+      "notSupported": "Speech Synthesis API nie jest obsługiwane w Twojej przeglądarce",
+      "playing": "Odtwarzanie...",
+      "paused": "Wstrzymano",
+      "tooLong": "Tekst jest za długi (maksymalnie {max} znaków)",
+      "ready": "Gotowy do wypowiedzenia"
+    },
+    "presets": {
+      "greeting": "Powitanie",
+      "time": "Czas",
+      "date": "Data",
+      "compliment": "Komplement",
+      "congratulation": "Gratulacje"
+    },
+    "presetTexts": {
+      "greeting": "Witamy! Jak się masz?",
+      "time": "Teraz jest {time}",
+      "date": "Dzisiaj jest {date}",
+      "compliment": "Masz doskonały gust w wyborze technologii!",
+      "congratulation": "Gratulacje za pomyślne opanowanie Web Speech API!"
+    },
+    "defaultText": "Cześć! To jest demonstracja syntezy mowy przy użyciu Web Speech API."
+  },
+  "common": {
+    "language": "Język",
+    "settings": "Ustawienia"
+  }
+}

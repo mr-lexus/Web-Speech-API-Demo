@@ -1,0 +1,75 @@
+{
+  "app": {
+    "title": "Web Speech API Demo",
+    "description": "Demonstration of Web Speech API capabilities: speech recognition and speech synthesis"
+  },
+  "speechRecognition": {
+    "title": "Speech Recognition",
+    "startRecording": "Start Recording",
+    "stopRecording": "Stop Recording",
+    "clear": "Clear",
+    "recognizedText": "Recognized Text:",
+    "placeholder": "Press the record button and start speaking...",
+    "language": "Language:",
+    "continuousRecognition": "Continuous Recognition",
+    "status": {
+      "notSupported": "Web Speech API is not supported in your browser",
+      "recording": "Recording... Speak into the microphone",
+      "ready": "Ready to record"
+    },
+    "errors": {
+      "noSpeech": "No speech detected. Please try again.",
+      "audioCapture": "Microphone is not available. Check permissions.",
+      "notAllowed": "Microphone access denied. Please allow microphone usage.",
+      "network": "Network error. Check your internet connection.",
+      "general": "Speech recognition error: {error}"
+    },
+    "languages": {
+      "ru-RU": "Russian",
+      "en-US": "English",
+      "de-DE": "German",
+      "fr-FR": "French"
+    }
+  },
+  "speechSynthesis": {
+    "title": "Speech Synthesis",
+    "textToSpeak": "Text to Speech:",
+    "placeholder": "Enter the text you want to speak...",
+    "characters": "characters",
+    "speak": "Speak",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop",
+    "voice": "Voice:",
+    "rate": "Rate:",
+    "pitch": "Pitch:",
+    "volume": "Volume:",
+    "quickPhrases": "Quick Phrases:",
+    "status": {
+      "notSupported": "Speech Synthesis API is not supported in your browser",
+      "playing": "Playing...",
+      "paused": "Paused",
+      "tooLong": "Text is too long (maximum {max} characters)",
+      "ready": "Ready to speak"
+    },
+    "presets": {
+      "greeting": "Greeting",
+      "time": "Time",
+      "date": "Date",
+      "compliment": "Compliment",
+      "congratulation": "Congratulation"
+    },
+    "presetTexts": {
+      "greeting": "Welcome! How are you doing?",
+      "time": "It is now {time}",
+      "date": "Today is {date}",
+      "compliment": "You have excellent taste in technology choices!",
+      "congratulation": "Congratulations on successfully mastering the Web Speech API!"
+    },
+    "defaultText": "Hello! This is a demonstration of speech synthesis using the Web Speech API."
+  },
+  "common": {
+    "language": "Language",
+    "settings": "Settings"
+  }
+}

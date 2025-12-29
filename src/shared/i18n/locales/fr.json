@@ -1,0 +1,75 @@
+{
+  "app": {
+    "title": "Démo Web Speech API",
+    "description": "Démonstration des capacités de l'API Web Speech : reconnaissance vocale et synthèse vocale"
+  },
+  "speechRecognition": {
+    "title": "Reconnaissance vocale",
+    "startRecording": "Commencer l'enregistrement",
+    "stopRecording": "Arrêter l'enregistrement",
+    "clear": "Effacer",
+    "recognizedText": "Texte reconnu :",
+    "placeholder": "Appuyez sur le bouton d'enregistrement et commencez à parler...",
+    "language": "Langue :",
+    "continuousRecognition": "Reconnaissance continue",
+    "status": {
+      "notSupported": "L'API Web Speech n'est pas prise en charge dans votre navigateur",
+      "recording": "Enregistrement en cours... Parlez dans le microphone",
+      "ready": "Prêt à enregistrer"
+    },
+    "errors": {
+      "noSpeech": "Aucune parole détectée. Veuillez réessayer.",
+      "audioCapture": "Le microphone n'est pas disponible. Vérifiez les autorisations.",
+      "notAllowed": "Accès au microphone refusé. Veuillez autoriser l'utilisation du microphone.",
+      "network": "Erreur réseau. Vérifiez votre connexion Internet.",
+      "general": "Erreur de reconnaissance vocale : {error}"
+    },
+    "languages": {
+      "ru-RU": "Russe",
+      "en-US": "Anglais",
+      "de-DE": "Allemand",
+      "fr-FR": "Français"
+    }
+  },
+  "speechSynthesis": {
+    "title": "Synthèse vocale",
+    "textToSpeak": "Texte à prononcer :",
+    "placeholder": "Entrez le texte que vous voulez faire prononcer...",
+    "characters": "caractères",
+    "speak": "Prononcer",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "stop": "Arrêter",
+    "voice": "Voix :",
+    "rate": "Vitesse :",
+    "pitch": "Hauteur :",
+    "volume": "Volume :",
+    "quickPhrases": "Phrases rapides :",
+    "status": {
+      "notSupported": "L'API Speech Synthesis n'est pas prise en charge dans votre navigateur",
+      "playing": "Lecture en cours...",
+      "paused": "En pause",
+      "tooLong": "Le texte est trop long (maximum {max} caractères)",
+      "ready": "Prêt à prononcer"
+    },
+    "presets": {
+      "greeting": "Salutation",
+      "time": "Heure",
+      "date": "Date",
+      "compliment": "Compliment",
+      "congratulation": "Félicitation"
+    },
+    "presetTexts": {
+      "greeting": "Bienvenue ! Comment allez-vous ?",
+      "time": "Il est maintenant {time}",
+      "date": "Aujourd'hui, nous sommes le {date}",
+      "compliment": "Vous avez un excellent goût dans le choix des technologies !",
+      "congratulation": "Félicitations pour avoir maîtrisé avec succès l'API Web Speech !"
+    },
+    "defaultText": "Bonjour ! Ceci est une démonstration de la synthèse vocale utilisant l'API Web Speech."
+  },
+  "common": {
+    "language": "Langue",
+    "settings": "Paramètres"
+  }
+}
